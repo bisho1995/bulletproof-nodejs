@@ -5,7 +5,6 @@
   "main": "src/app.ts",
   "scripts": {
     "build": "tsc",
-    "heroku-postbuild": "npm run build",
     "start": "nodemon",
     "inspect": "nodemon --inspect src/app.ts",
     "test": "jest",
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santiq/bulletproof-nodejs.git"
+    "url": "git+https://github.com/bisho1995/bulletproof-nodejs.git"
   },
   "keywords": [
     "boilerplay",
@@ -28,7 +27,7 @@
     "node",
     "express"
   ],
-  "author": "Santiago Quinteros",
+  "author": "Santiago Quinteros, Bisvarup Mukherjee",
   "license": "ISC",
   "dependencies": {
     "agenda": "^3.1.0",
@@ -77,7 +76,7 @@
     "typescript": "^4.0.3"
   },
   "bugs": {
-    "url": "https://github.com/santiq/bulletproof-nodejs/issues"
+    "url": "https://github.com/bisho1995/bulletproof-nodejs/issues"
   },
-  "homepage": "https://github.com/santiq/bulletproof-nodejs#readme"
+  "homepage": "https://github.com/bisho1995/bulletproof-nodejs#bulletproof-nodejs-architecture-%EF%B8%8F"
 }
